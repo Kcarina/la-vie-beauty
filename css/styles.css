@@ -1,0 +1,241 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Modern Serif';
+  overflow-x: hidden;
+}
+
+.h1 {
+  font-size: 60px;
+}
+
+.container-fluid {
+  text-align: center;
+  background-color: #B7CAD8;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.icons {
+  font-size: 25px;
+  text-align: right;
+}
+
+.navbar-nav {
+  text-align: right;
+  word-spacing: 200px;
+}
+
+.dropbtn {
+  background-color: #F0F0F0;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+#items {
+  text-align: center;
+}
+
+hr {
+  background-color: #FFC4E1;
+  border-style: none;
+  height: 2.5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.myOverlay {
+  position: fixed;
+}
+
+.openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+
+.overlay {
+  text-align: right;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-content {
+  text-align: right;
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+.card {
+  text-align: center;
+  display: inline-block;
+  background-color: inherit;
+  border: solid 15px;
+  border-width: thin;
+  width: 300px;
+  margin: 30px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+button {
+  text-align: justify;
+  font-size: 10px;
+}
+
+.container {
+  width: hsl(360, 100%, 100%);
+  position: relative;
+}
+
+.menu {
+  margin-bottom: 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.pagination {
+  position: center;
+  padding-left: 600px;
+}
+
+h3 {
+  font-size: medium;
+  position: relative;
+  left: 100px;
+  right: 150px;
+}
+
+.desc {
+  text-decoration-color: #9977A6;
+}
+
+.container-responsive {
+  text-align: left;
+  background-color: #B7CAD8;
+  padding: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #99C9E0;
+  color: white;
+}
+
+.fa-twitter {
+  background: #99C9E0;
+  color: white;
+}
+
+.fa-google {
+  background: #99C9E0;
+  color: white;
+}
+
+.fa-instagram {
+  background: #99C9E0;
+  color: white;
+}
